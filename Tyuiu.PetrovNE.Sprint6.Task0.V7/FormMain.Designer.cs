@@ -36,7 +36,7 @@
             this.buttonHelp_PNE = new System.Windows.Forms.Button();
             this.groupBoxInput_PNE = new System.Windows.Forms.GroupBox();
             this.TextBoxInput_PNE = new System.Windows.Forms.MaskedTextBox();
-            this.textBoxVarA_PNE = new System.Windows.Forms.TextBox();
+            this.textBoxVarX_PNE = new System.Windows.Forms.TextBox();
             this.textBoxResult_PNE = new System.Windows.Forms.TextBox();
             this.groupBox2_PNE = new System.Windows.Forms.GroupBox();
             this.maskedTextBox3_PNE = new System.Windows.Forms.MaskedTextBox();
@@ -108,7 +108,7 @@
             // groupBoxInput_PNE
             // 
             this.groupBoxInput_PNE.Controls.Add(this.TextBoxInput_PNE);
-            this.groupBoxInput_PNE.Controls.Add(this.textBoxVarA_PNE);
+            this.groupBoxInput_PNE.Controls.Add(this.textBoxVarX_PNE);
             this.groupBoxInput_PNE.Location = new System.Drawing.Point(24, 302);
             this.groupBoxInput_PNE.Name = "groupBoxInput_PNE";
             this.groupBoxInput_PNE.Size = new System.Drawing.Size(512, 100);
@@ -122,21 +122,21 @@
             this.TextBoxInput_PNE.BackColor = System.Drawing.SystemColors.Control;
             this.TextBoxInput_PNE.Location = new System.Drawing.Point(6, 21);
             this.TextBoxInput_PNE.Name = "TextBoxInput_PNE";
-            this.TextBoxInput_PNE.Size = new System.Drawing.Size(102, 22);
+            this.TextBoxInput_PNE.Size = new System.Drawing.Size(125, 22);
             this.TextBoxInput_PNE.TabIndex = 1;
-            this.TextBoxInput_PNE.Text = "Переменная A";
+            this.TextBoxInput_PNE.Text = "Переменная X";
             this.TextBoxInput_PNE.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
             // 
-            // textBoxVarA_PNE
+            // textBoxVarX_PNE
             // 
-            this.textBoxVarA_PNE.BackColor = System.Drawing.SystemColors.Window;
-            this.textBoxVarA_PNE.Location = new System.Drawing.Point(6, 44);
-            this.textBoxVarA_PNE.Multiline = true;
-            this.textBoxVarA_PNE.Name = "textBoxVarA_PNE";
-            this.textBoxVarA_PNE.Size = new System.Drawing.Size(102, 30);
-            this.textBoxVarA_PNE.TabIndex = 0;
-            this.textBoxVarA_PNE.Click += new System.EventHandler(this.textBoxVarA_Click);
-            this.textBoxVarA_PNE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxVarA_KeyPress);
+            this.textBoxVarX_PNE.BackColor = System.Drawing.SystemColors.Window;
+            this.textBoxVarX_PNE.Location = new System.Drawing.Point(6, 44);
+            this.textBoxVarX_PNE.Multiline = true;
+            this.textBoxVarX_PNE.Name = "textBoxVarX_PNE";
+            this.textBoxVarX_PNE.Size = new System.Drawing.Size(102, 30);
+            this.textBoxVarX_PNE.TabIndex = 0;
+            this.textBoxVarX_PNE.Click += new System.EventHandler(this.textBoxVarA_Click);
+            this.textBoxVarX_PNE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxVarA_KeyPress);
             // 
             // textBoxResult_PNE
             // 
@@ -201,7 +201,7 @@
         private System.Windows.Forms.GroupBox groupBoxTask_PNE;
         private System.Windows.Forms.Button buttonHelp_PNE;
         private System.Windows.Forms.GroupBox groupBoxInput_PNE;
-        private System.Windows.Forms.TextBox textBoxVarA_PNE;
+        private System.Windows.Forms.TextBox textBoxVarX_PNE;
         private System.Windows.Forms.TextBox textBoxResult_PNE;
         private System.Windows.Forms.MaskedTextBox TextBoxInput_PNE;
         private System.Windows.Forms.GroupBox groupBox2_PNE;
