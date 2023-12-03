@@ -34,7 +34,7 @@ namespace Tyuiu.PetrovNE.Sprint6.Task0.V7
             DataService ds = new DataService();
             try
             {
-                textBoxResult.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxVarA.Text)));
+                textBoxResult_PNE.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxVarA_PNE.Text)));
             }
             catch
             {
