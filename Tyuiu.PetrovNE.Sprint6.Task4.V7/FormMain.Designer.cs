@@ -33,7 +33,7 @@
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.groupBoxTask_PNE = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelTask_PNE = new System.Windows.Forms.Label();
             this.groupBoxResult_PNE = new System.Windows.Forms.GroupBox();
             this.textBoxResult_PNE = new System.Windows.Forms.TextBox();
             this.groupBoxInput_PNE = new System.Windows.Forms.GroupBox();
@@ -60,7 +60,7 @@
             // groupBoxTask_PNE
             // 
             this.groupBoxTask_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBoxTask_PNE.Controls.Add(this.label1);
+            this.groupBoxTask_PNE.Controls.Add(this.labelTask_PNE);
             this.groupBoxTask_PNE.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBoxTask_PNE.Location = new System.Drawing.Point(12, 12);
             this.groupBoxTask_PNE.Name = "groupBoxTask_PNE";
@@ -68,18 +68,19 @@
             this.groupBoxTask_PNE.TabIndex = 0;
             this.groupBoxTask_PNE.TabStop = false;
             this.groupBoxTask_PNE.Text = "Условие:";
+            this.groupBoxTask_PNE.Enter += new System.EventHandler(this.groupBoxTask_PNE_Enter);
             // 
-            // label1
+            // labelTask_PNE
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(491, 64);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Протабулировать функцию \r\nCos(x) + Cos(x)/x + 2 - 3 * x\r\nРезультат вывести в text" +
+            this.labelTask_PNE.AutoSize = true;
+            this.labelTask_PNE.Location = new System.Drawing.Point(6, 23);
+            this.labelTask_PNE.Name = "labelTask_PNE";
+            this.labelTask_PNE.Size = new System.Drawing.Size(491, 64);
+            this.labelTask_PNE.TabIndex = 0;
+            this.labelTask_PNE.Text = "Протабулировать функцию \r\nCos(x) + Cos(x)/x + 2 - 3 * x\r\nРезультат вывести в text" +
     "Box. Построить график функци и сохранить файл\r\nOutPutFileTask.txt по нажатию кно" +
     "пки.";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.labelTask_PNE.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBoxResult_PNE
             // 
@@ -93,6 +94,7 @@
             this.groupBoxResult_PNE.TabIndex = 1;
             this.groupBoxResult_PNE.TabStop = false;
             this.groupBoxResult_PNE.Text = "Вывод:";
+            this.groupBoxResult_PNE.Enter += new System.EventHandler(this.groupBoxResult_PNE_Enter);
             // 
             // textBoxResult_PNE
             // 
@@ -243,6 +245,7 @@
             this.panelTask_PNE.Name = "panelTask_PNE";
             this.panelTask_PNE.Size = new System.Drawing.Size(1282, 142);
             this.panelTask_PNE.TabIndex = 5;
+            this.panelTask_PNE.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTask_PNE_Paint);
             // 
             // panelResult_PNE
             // 
@@ -297,7 +300,7 @@
         private System.Windows.Forms.Button buttonDone_PNE;
         private System.Windows.Forms.Button buttonSave_PNE;
         private System.Windows.Forms.Button buttonHelp_PNE;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelTask_PNE;
         private System.Windows.Forms.Label labelInputEnd_PNE;
         private System.Windows.Forms.TextBox textBoxInputEnd_PNE;
         private System.Windows.Forms.TextBox textBoxInputStart_PNE;

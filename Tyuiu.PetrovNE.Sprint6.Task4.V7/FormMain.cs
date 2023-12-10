@@ -131,6 +131,21 @@ namespace Tyuiu.PetrovNE.Sprint6.Task4.V7
         {
             buttonHelp_PNE.BackColor = Color.LightBlue;
         }
+
+        private void groupBoxResult_PNE_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelTask_PNE_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void groupBoxTask_PNE_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
