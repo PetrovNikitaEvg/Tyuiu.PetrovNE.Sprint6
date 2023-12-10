@@ -12,9 +12,8 @@ namespace Tyuiu.PetrovNE.Sprint6.Task6.V23.Lib
 {
     public class DataService : ISprint6Task6V23
     {
-        public string CollectTextFromFile(string path)
+        public string CollectTextFromFile(string str, string path)
         {
-            string str = "s";
             string resStr = "";
             using (StreamReader reader = new StreamReader(path))
             {
