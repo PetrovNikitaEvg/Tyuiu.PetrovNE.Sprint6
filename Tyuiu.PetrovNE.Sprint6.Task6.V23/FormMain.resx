@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="labelTask_PNE.Text" xml:space="preserve">
+    <value>Дан файл InPutFileTask6V23.txt который может находится в любом месте на диске. 
+Загрузить файл в textBoxIn через openFileDialog. Вывести слова в которых встречается s в результирующею строку и вывести ее в textBoxOut.</value>
+  </data>
   <metadata name="toolTip_PNE.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>239, 17</value>
   </metadata>
@@ -152,10 +156,6 @@
         NsHPgw+FpxhCUA5Vi+jAJHEllA4Zn3QJlPMYz1ENi79EeOB78DiCCXlVvLVeBD9C7+5wzmM8xzWPXbw3
         eEv5uT68o5zzGM/d9zkW4j8IdoMidUfQBwAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Дан файл InPutFileTask6V23.txt который может находится в любом месте на диске. 
-Загрузить файл в textBoxIn через openFileDialog. Вывести слова в которых встречается s в результирующею строку и вывести ее в textBoxOut.</value>
   </data>
   <metadata name="openFileDialogTask_PNE.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

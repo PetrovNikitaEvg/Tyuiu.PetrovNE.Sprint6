@@ -31,23 +31,23 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelTask_PNE = new System.Windows.Forms.Panel();
-            this.panelFill_PNE = new System.Windows.Forms.Panel();
             this.groupBoxTask_PNE = new System.Windows.Forms.GroupBox();
-            this.groupBoxInput_PNE = new System.Windows.Forms.GroupBox();
-            this.groupBoxOutPut_PNE = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBoxResult_PNE = new System.Windows.Forms.TextBox();
-            this.textBoxInput_PNE = new System.Windows.Forms.TextBox();
-            this.openFileDialogTask_PNE = new System.Windows.Forms.OpenFileDialog();
-            this.toolTip_PNE = new System.Windows.Forms.ToolTip(this.components);
+            this.labelTask_PNE = new System.Windows.Forms.Label();
+            this.panelFill_PNE = new System.Windows.Forms.Panel();
             this.buttonHelp_PNE = new System.Windows.Forms.Button();
             this.buttonDone_PNE = new System.Windows.Forms.Button();
             this.buttonLoad_PNE = new System.Windows.Forms.Button();
+            this.groupBoxOutPut_PNE = new System.Windows.Forms.GroupBox();
+            this.textBoxResult_PNE = new System.Windows.Forms.TextBox();
+            this.groupBoxInput_PNE = new System.Windows.Forms.GroupBox();
+            this.textBoxInput_PNE = new System.Windows.Forms.TextBox();
+            this.openFileDialogTask_PNE = new System.Windows.Forms.OpenFileDialog();
+            this.toolTip_PNE = new System.Windows.Forms.ToolTip(this.components);
             this.panelTask_PNE.SuspendLayout();
-            this.panelFill_PNE.SuspendLayout();
             this.groupBoxTask_PNE.SuspendLayout();
-            this.groupBoxInput_PNE.SuspendLayout();
+            this.panelFill_PNE.SuspendLayout();
             this.groupBoxOutPut_PNE.SuspendLayout();
+            this.groupBoxInput_PNE.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTask_PNE
@@ -57,6 +57,32 @@
             this.panelTask_PNE.Name = "panelTask_PNE";
             this.panelTask_PNE.Size = new System.Drawing.Size(1307, 94);
             this.panelTask_PNE.TabIndex = 1;
+            // 
+            // groupBoxTask_PNE
+            // 
+            this.groupBoxTask_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBoxTask_PNE.Controls.Add(this.labelTask_PNE);
+            this.groupBoxTask_PNE.Location = new System.Drawing.Point(3, 3);
+            this.groupBoxTask_PNE.Name = "groupBoxTask_PNE";
+            this.groupBoxTask_PNE.Size = new System.Drawing.Size(1311, 93);
+            this.groupBoxTask_PNE.TabIndex = 0;
+            this.groupBoxTask_PNE.TabStop = false;
+            this.groupBoxTask_PNE.Text = "Условие:";
+            // 
+            // labelTask_PNE
+            // 
+            this.labelTask_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelTask_PNE.AutoSize = true;
+            this.labelTask_PNE.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTask_PNE.Location = new System.Drawing.Point(5, 18);
+            this.labelTask_PNE.Name = "labelTask_PNE";
+            this.labelTask_PNE.Size = new System.Drawing.Size(1301, 48);
+            this.labelTask_PNE.TabIndex = 0;
+            this.labelTask_PNE.Text = resources.GetString("labelTask_PNE.Text");
             // 
             // panelFill_PNE
             // 
@@ -72,91 +98,6 @@
             this.panelFill_PNE.Name = "panelFill_PNE";
             this.panelFill_PNE.Size = new System.Drawing.Size(1307, 667);
             this.panelFill_PNE.TabIndex = 2;
-            // 
-            // groupBoxTask_PNE
-            // 
-            this.groupBoxTask_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBoxTask_PNE.Controls.Add(this.label1);
-            this.groupBoxTask_PNE.Location = new System.Drawing.Point(3, 3);
-            this.groupBoxTask_PNE.Name = "groupBoxTask_PNE";
-            this.groupBoxTask_PNE.Size = new System.Drawing.Size(1311, 93);
-            this.groupBoxTask_PNE.TabIndex = 0;
-            this.groupBoxTask_PNE.TabStop = false;
-            this.groupBoxTask_PNE.Text = "Условие:";
-            // 
-            // groupBoxInput_PNE
-            // 
-            this.groupBoxInput_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBoxInput_PNE.Controls.Add(this.textBoxInput_PNE);
-            this.groupBoxInput_PNE.Location = new System.Drawing.Point(-2, 204);
-            this.groupBoxInput_PNE.Name = "groupBoxInput_PNE";
-            this.groupBoxInput_PNE.Size = new System.Drawing.Size(629, 460);
-            this.groupBoxInput_PNE.TabIndex = 0;
-            this.groupBoxInput_PNE.TabStop = false;
-            this.groupBoxInput_PNE.Text = "Ввод:";
-            // 
-            // groupBoxOutPut_PNE
-            // 
-            this.groupBoxOutPut_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBoxOutPut_PNE.Controls.Add(this.textBoxResult_PNE);
-            this.groupBoxOutPut_PNE.Location = new System.Drawing.Point(633, 204);
-            this.groupBoxOutPut_PNE.Name = "groupBoxOutPut_PNE";
-            this.groupBoxOutPut_PNE.Size = new System.Drawing.Size(676, 465);
-            this.groupBoxOutPut_PNE.TabIndex = 1;
-            this.groupBoxOutPut_PNE.TabStop = false;
-            this.groupBoxOutPut_PNE.Text = "Вывод:";
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(5, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1301, 48);
-            this.label1.TabIndex = 0;
-            this.label1.Text = resources.GetString("label1.Text");
-            // 
-            // textBoxResult_PNE
-            // 
-            this.textBoxResult_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxResult_PNE.Location = new System.Drawing.Point(0, 41);
-            this.textBoxResult_PNE.Multiline = true;
-            this.textBoxResult_PNE.Name = "textBoxResult_PNE";
-            this.textBoxResult_PNE.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxResult_PNE.Size = new System.Drawing.Size(657, 394);
-            this.textBoxResult_PNE.TabIndex = 0;
-            this.textBoxResult_PNE.TextChanged += new System.EventHandler(this.textBoxResult_PNE_TextChanged);
-            // 
-            // textBoxInput_PNE
-            // 
-            this.textBoxInput_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxInput_PNE.Location = new System.Drawing.Point(5, 41);
-            this.textBoxInput_PNE.Multiline = true;
-            this.textBoxInput_PNE.Name = "textBoxInput_PNE";
-            this.textBoxInput_PNE.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxInput_PNE.Size = new System.Drawing.Size(614, 394);
-            this.textBoxInput_PNE.TabIndex = 1;
-            // 
-            // openFileDialogTask_PNE
-            // 
-            this.openFileDialogTask_PNE.FileName = "openFileDialog1";
-            // 
-            // toolTip_PNE
-            // 
-            this.toolTip_PNE.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTip_PNE.ToolTipTitle = "Подсказка";
             // 
             // buttonHelp_PNE
             // 
@@ -200,6 +141,65 @@
             this.buttonLoad_PNE.UseVisualStyleBackColor = false;
             this.buttonLoad_PNE.Click += new System.EventHandler(this.buttonLoad_PNE_Click);
             // 
+            // groupBoxOutPut_PNE
+            // 
+            this.groupBoxOutPut_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBoxOutPut_PNE.Controls.Add(this.textBoxResult_PNE);
+            this.groupBoxOutPut_PNE.Location = new System.Drawing.Point(633, 204);
+            this.groupBoxOutPut_PNE.Name = "groupBoxOutPut_PNE";
+            this.groupBoxOutPut_PNE.Size = new System.Drawing.Size(676, 465);
+            this.groupBoxOutPut_PNE.TabIndex = 1;
+            this.groupBoxOutPut_PNE.TabStop = false;
+            this.groupBoxOutPut_PNE.Text = "Вывод:";
+            // 
+            // textBoxResult_PNE
+            // 
+            this.textBoxResult_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxResult_PNE.Location = new System.Drawing.Point(0, 41);
+            this.textBoxResult_PNE.Multiline = true;
+            this.textBoxResult_PNE.Name = "textBoxResult_PNE";
+            this.textBoxResult_PNE.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxResult_PNE.Size = new System.Drawing.Size(657, 394);
+            this.textBoxResult_PNE.TabIndex = 0;
+            this.textBoxResult_PNE.TextChanged += new System.EventHandler(this.textBoxResult_PNE_TextChanged);
+            // 
+            // groupBoxInput_PNE
+            // 
+            this.groupBoxInput_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBoxInput_PNE.Controls.Add(this.textBoxInput_PNE);
+            this.groupBoxInput_PNE.Location = new System.Drawing.Point(-2, 204);
+            this.groupBoxInput_PNE.Name = "groupBoxInput_PNE";
+            this.groupBoxInput_PNE.Size = new System.Drawing.Size(629, 460);
+            this.groupBoxInput_PNE.TabIndex = 0;
+            this.groupBoxInput_PNE.TabStop = false;
+            this.groupBoxInput_PNE.Text = "Ввод:";
+            // 
+            // textBoxInput_PNE
+            // 
+            this.textBoxInput_PNE.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxInput_PNE.Location = new System.Drawing.Point(5, 41);
+            this.textBoxInput_PNE.Multiline = true;
+            this.textBoxInput_PNE.Name = "textBoxInput_PNE";
+            this.textBoxInput_PNE.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxInput_PNE.Size = new System.Drawing.Size(614, 394);
+            this.textBoxInput_PNE.TabIndex = 1;
+            // 
+            // openFileDialogTask_PNE
+            // 
+            this.openFileDialogTask_PNE.FileName = "openFileDialog1";
+            // 
+            // toolTip_PNE
+            // 
+            this.toolTip_PNE.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.toolTip_PNE.ToolTipTitle = "Подсказка";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -212,13 +212,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 6 | Вариант 23 | Петров Н. Е";
             this.panelTask_PNE.ResumeLayout(false);
-            this.panelFill_PNE.ResumeLayout(false);
             this.groupBoxTask_PNE.ResumeLayout(false);
             this.groupBoxTask_PNE.PerformLayout();
-            this.groupBoxInput_PNE.ResumeLayout(false);
-            this.groupBoxInput_PNE.PerformLayout();
+            this.panelFill_PNE.ResumeLayout(false);
             this.groupBoxOutPut_PNE.ResumeLayout(false);
             this.groupBoxOutPut_PNE.PerformLayout();
+            this.groupBoxInput_PNE.ResumeLayout(false);
+            this.groupBoxInput_PNE.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -226,7 +226,7 @@
         #endregion
         private System.Windows.Forms.Panel panelTask_PNE;
         private System.Windows.Forms.GroupBox groupBoxTask_PNE;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelTask_PNE;
         private System.Windows.Forms.Panel panelFill_PNE;
         private System.Windows.Forms.GroupBox groupBoxOutPut_PNE;
         private System.Windows.Forms.GroupBox groupBoxInput_PNE;

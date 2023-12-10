@@ -40,7 +40,7 @@ namespace Tyuiu.PetrovNE.Sprint6.Task6.V23
             try
             {
                 string str = "s";
-                textBoxResult_PNE.Text = ds.CollectTextFromFile(openFilePath);
+                textBoxResult_PNE.Text = ds.CollectTextFromFile(str, openFilePath);
             }
             catch
             {
